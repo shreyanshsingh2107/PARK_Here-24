@@ -1,0 +1,19 @@
+header{
+    background-color: blue;
+    height: 70px;
+    width:auto;
+}
+header h1{
+    color: white;
+    padding: 1%;
+
+}
+footer{
+    background-color: blue;
+    height: 50px;
+}
+footer p{
+    color: white;
+    font-weight: bold;
+    padding: 1%;
+}
