@@ -1,4 +1,4 @@
-const body = document.querrySelector('body');
+const body = document.querySelector('body');
 
 // random color generator
 var randomColor = function(){
