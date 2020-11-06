@@ -1,4 +1,4 @@
-const body = document.querySelector('body');
+const content = document.querySelector('col-md-4');
 
 // random color generator
 var randomColor = function(){
@@ -10,6 +10,7 @@ var randomColor = function(){
 }
 
 // create event listener to change background color on button click
-body.onclick = function(){
-	this.style.backgroundColor = randomColor();
+content.onclick = function(){
+	const body = document.querySelector('body');
+	body.style.backgroundColor = randomColor();
 }
