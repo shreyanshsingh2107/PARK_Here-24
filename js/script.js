@@ -1,16 +1,18 @@
-const content = document.querySelector('col-md-4');
+// const body = document.querySelector('body');
 
-// random color generator
-var randomColor = function(){
-  var rvalue = function() {
-  	return Math.round(Math.random()*255); 
-  }
+// // random color generator
+// var randomColor = function(){
+//   var rvalue = function() {
+//   	return Math.round(Math.random()*255); 
+//   }
 
- 	return 'rgb(' + rvalue() + "," + rvalue() + "," + rvalue() + ")";
-}
+//  	return 'rgb(' + rvalue() + "," + rvalue() + "," + rvalue() + ")";
+// }
 
-// create event listener to change background color on button click
-content.onclick = function(){
-	const body = document.querySelector('body');
-	body.style.backgroundColor = randomColor();
-}
+// // create event listener to change background color on button click
+// body.onmouseover = function(){
+	
+// 	this.style.backgroundColor = randomColor();
+// }
+
+
